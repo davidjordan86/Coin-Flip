@@ -7,7 +7,7 @@ class Coin:
         self._side: str = None
 
     # Randomly set _side based on two possible outcomes and return it
-    def flip(self):
+    def flip(self) -> str:
         outcomes = ["Heads", "Tails"]
         self.side = random.choice(outcomes)
         return self._side
