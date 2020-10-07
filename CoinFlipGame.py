@@ -30,5 +30,6 @@ outcome = coin.flip()
 # Print the outcome
 if outcome == player1.chosen_side:
     print(player1.name + " wins the toss with a " + outcome)
+    
 else:
     print(player2.name + " wins the toss with a " + outcome)
